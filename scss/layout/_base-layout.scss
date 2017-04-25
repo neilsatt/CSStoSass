@@ -1,0 +1,85 @@
+/* ================================= 
+  Base Layout Styles
+==================================== */
+/* Main CSS ----- */
+    
+    .name {
+        font-size: 1.75em;        
+    }
+    
+    .main-nav li {
+        background: #E8E8E8;
+        font-weight: 900;
+    }
+    .main-nav a {
+           padding: 10px 15px;
+            text-align: center;
+            display: block;
+    }
+    
+    .profile-img {
+        max-width: 65%;
+    }
+    
+    .port-img {
+        max-width: 95%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .col p {
+        text-align: center;     
+    }
+    
+    h4  {
+    text-transform: uppercase;
+    }
+
+
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+}
+
+.name,
+.main-nav li {
+	text-align: center;
+	background: #fff;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: black;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.name a,
+.main-nav a {
+	padding: 10px 15px;
+	display: block;
+}
+
+
+
+/* ---- Layout Containers ---- */
+.main-header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+
+/*CREATE GUTTERS */
+.col {
+  padding-right: 1em;
+  padding-left: 1em;    
+}

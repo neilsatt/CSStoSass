@@ -1,4 +1,7 @@
 /* ================================= 
+  Global Imports
+==================================== */
+/* ================================= 
   Base Element Styles
 ==================================== */
 * {
@@ -45,28 +48,36 @@ ul {
   max-width: 75%;
   margin: auto; }
 
-#left-footer-link {
-  float: left;
-  font-weight: bold;
-  margin: 10px;
-  font-size: 1.0em; }
-
-#right-footer-link {
-  float: right;
-  font-size: .90em;
-  font-weight: bold;
-  margin: 10px;
-  text-transform: uppercase; }
-
-#right-footer-link a:visited {
-  color: black; }
-
-#right-footer-link a:hover {
-  color: #093a58; }
-
 /* ================================= 
   Base Layout Styles
 ==================================== */
+/* Main CSS ----- */
+.name {
+  font-size: 1.75em; }
+
+.main-nav li {
+  background: #E8E8E8;
+  font-weight: 900; }
+
+.main-nav a {
+  padding: 10px 15px;
+  text-align: center;
+  display: block; }
+
+.profile-img {
+  max-width: 65%; }
+
+.port-img {
+  max-width: 95%;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.col p {
+  text-align: center; }
+
+h4 {
+  text-transform: uppercase; }
+
 /* ---- Navigation ---- */
 .name {
   font-size: 1.25em; }
@@ -103,39 +114,31 @@ ul {
   padding-right: 1em;
   padding-left: 1em; }
 
+#left-footer-link {
+  float: left;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 1.0em; }
+
+#right-footer-link {
+  float: right;
+  font-size: .90em;
+  font-weight: bold;
+  margin: 10px;
+  text-transform: uppercase; }
+
+#right-footer-link a:visited {
+  color: black; }
+
+#right-footer-link a:hover {
+  color: #093a58; }
+
 .main-footer {
   background: #D8D8D8;
   padding: 2em 0;
   margin-top: 30px;
   text-align: center;
   border-top: 1px solid black; }
-
-/* CSS from original 320 media query */
-.name {
-  font-size: 1.75em; }
-
-.main-nav li {
-  background: #E8E8E8;
-  font-weight: 900; }
-
-.main-nav a {
-  padding: 10px 15px;
-  text-align: center;
-  display: block; }
-
-.profile-img {
-  max-width: 65%; }
-
-.port-img {
-  max-width: 95%;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-.col p {
-  text-align: center; }
-
-h4 {
-  text-transform: uppercase; }
 
 .right-footer-nav li {
   display: none;
@@ -247,4 +250,4 @@ h4 {
     float: left;
     width: 33%; } }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=application.css.map */

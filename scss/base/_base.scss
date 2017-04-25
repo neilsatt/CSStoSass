@@ -1,0 +1,58 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+
+h2,
+h3,
+a {
+	text-align: center;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+#title {
+    text-align: center;
+	color: black;
+    font-weight: bolder;
+	text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact {
+    font-weight: bolder;
+}
+
+#contact-content {
+    max-width: 75%;
+    margin: auto;
+}
