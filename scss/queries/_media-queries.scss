@@ -8,7 +8,7 @@
 @media (min-width: 768px) {
     
     .main-nav li {
-        background: #FFFFFF;
+        background: $white;
         text-align: center; // removed placeholder due to error within @media
     }
     
@@ -20,7 +20,7 @@
     .name,
     .main-header,
     #intro {
-        background-color: #E8E8E8; 
+        background-color: $grey; 
     }
 
     
@@ -80,7 +80,7 @@
     }
     
     .right-footer-nav li {    
-        color: black;
+        color: $black;
         font-weight: bold;
 	    text-transform: uppercase;
         margin: 10px;
@@ -89,7 +89,7 @@
     }
     
     .right-footer-nav a:visited{
-      color: black;
+      color: $black;
     }
     
  

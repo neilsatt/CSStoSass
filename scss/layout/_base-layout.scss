@@ -8,7 +8,7 @@
     }
     
     .main-nav li {
-        background: #E8E8E8;
+        background: $grey;
         font-weight: 900;
     }
     .main-nav a {
@@ -53,13 +53,13 @@
 
 .main-nav a {
 	font-size: .95em;
-	color: black;
+	color: $black;
     font-weight: bold;
 	text-transform: uppercase;
 }
 
 .main-nav a:hover {
-	color: #093a58;
+	color: $medium-blue;
 }
 
 .name a,

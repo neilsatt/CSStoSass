@@ -8,7 +8,7 @@
 body {
 	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
-	color: #3a3a3a;
+	color: $body;
 }
 
 p {
@@ -39,7 +39,7 @@ img {
 
 #title {
     @extend %centered;
-	color: black;
+	color: $black;
     font-weight: bolder;
 	text-transform: uppercase;
 }
