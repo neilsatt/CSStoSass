@@ -5,7 +5,7 @@
 
 
 /* 768 px or wider */
-@media (min-width: 768px) {
+@media (min-width: $brk-medium) {
     
     .main-nav li {
         background: $white;
@@ -107,7 +107,7 @@
 }
 
 /* 1024 px or wider */
-@media (min-width: 1024px) {
+@media (min-width: $brk-wide) {
 
     
     .col {
