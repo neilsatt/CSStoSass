@@ -13,7 +13,7 @@
     }
     .main-nav a {
            padding: 10px 15px;
-            text-align: center;
+            @extend %centered;
             display: block;
     }
     
@@ -28,7 +28,7 @@
     }
     
     .col p {
-        text-align: center;     
+        @extend %centered;     
     }
     
     h4  {
@@ -45,7 +45,7 @@
 
 .name,
 .main-nav li {
-	text-align: center;
+	@extend %centered;
 	background: #fff;
 	margin-top: 6px;
 	margin-bottom: 6px;
@@ -74,7 +74,7 @@
 .main-header {
     padding-top: .5em;
     padding-bottom: .5em;
-    text-align: center;
+    @extend %centered;
 }
 
 

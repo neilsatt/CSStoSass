@@ -20,7 +20,7 @@ p {
 h2,
 h3,
 a {
-	text-align: center;
+	@extend %centered;
 }
 
 h2,
@@ -38,7 +38,7 @@ img {
 }
 
 #title {
-    text-align: center;
+    @extend %centered;
 	color: black;
     font-weight: bolder;
 	text-transform: uppercase;
