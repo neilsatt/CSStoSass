@@ -1,6 +1,12 @@
 /* ================================= 
   Base Layout Styles
 ==================================== */
+/* Mixins */
+
+@include font-properties('.95em', 'bold', '$black');
+
+
+
 /* Main CSS ----- */
     
     .name {
@@ -40,7 +46,7 @@
 /* ---- Navigation ---- */
 
 .name {
-	font-size: 1.25em;
+    @include font-properties('1.25em');
 }
 
 .name,
@@ -52,14 +58,12 @@
 }
 
 .main-nav a {
-	font-size: .95em;
-	color: $black;
-    font-weight: bold;
+	@include font-properties('.95em', 'bold', '$black');
 	text-transform: uppercase;
 }
 
 .main-nav a:hover {
-	color: $medium-blue;
+     @include font-properties('$medium-blue');
 }
 
 .name a,
