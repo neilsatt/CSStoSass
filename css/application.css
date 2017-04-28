@@ -54,14 +54,6 @@ ul {
 .name {
   font-size: 1.75em; }
 
-.main-nav li {
-  background: #E8E8E8;
-  font-weight: 900; }
-
-.main-nav a {
-  padding: 10px 15px;
-  display: block; }
-
 .profile-img {
   max-width: 65%; }
 
@@ -79,24 +71,26 @@ h4 {
     font-size: "1.25em"; } }
 .name,
 .main-nav li {
-  background: #fff;
+  background: #E8E8E8;
   margin-top: 6px;
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  font-weight: 900; }
 
-.main-nav a {
-  text-transform: uppercase; }
+.name a {
+  display: block; }
+
+/* Main Nav li updated with nesting */
+.main-nav li a {
+  padding: 10px 15px;
+  display: block; }
 @font-face {
-  .main-nav a {
+  .main-nav li a {
     font-size: ".95em";
     font-weight: "bold";
     color: "$black"; } }
-@font-face {
-  .main-nav a:hover {
-    font-size: "$medium-blue"; } }
-.name a,
-.main-nav a {
-  padding: 10px 15px;
-  display: block; }
+  .main-nav li a:hover {
+    background-color: #093a58;
+    color: #FFFFFF; }
 
 /* ---- Layout Containers ---- */
 .main-header {
@@ -139,8 +133,8 @@ h4 {
 
 h2,
 h3,
-a, #title, .main-nav a, .col p, .name,
-.main-nav li, .main-header, .main-footer {
+a, #title, .col p, .name,
+.main-nav li, .main-nav li a, .main-header, .main-footer {
   text-align: center; }
 
 /* ================================= 

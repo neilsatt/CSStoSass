@@ -12,16 +12,7 @@
     .name {
         font-size: 1.75em;        
     }
-    
-    .main-nav li {
-        background: $grey;
-        font-weight: 900;
-    }
-    .main-nav a {
-           padding: 10px 15px;
-            @extend %centered;
-            display: block;
-    }
+
     
     .profile-img {
         max-width: 65%;
@@ -52,24 +43,32 @@
 .name,
 .main-nav li {
 	@extend %centered;
-	background: #fff;
+    background: $grey;
 	margin-top: 6px;
 	margin-bottom: 6px;
+    font-weight: 900;
 }
 
-.main-nav a {
-	@include font-properties('.95em', 'bold', '$black');
-	text-transform: uppercase;
-}
 
-.main-nav a:hover {
-     @include font-properties('$medium-blue');
-}
-
-.name a,
-.main-nav a {
-	padding: 10px 15px;
+.name a {
 	display: block;
+}
+
+/* Main Nav li updated with nesting */
+.main-nav li {
+    a {
+        padding: 10px 15px;
+        @extend %centered;
+        display: block;
+        @include font-properties('.95em', 'bold', '$black');
+    
+        &:hover {
+                background-color: $medium-blue;
+                color: $white;
+    }
+        
+  }
+    
 }
 
 
