@@ -1,0 +1,7 @@
+50		Value Error : font-size ".95em" is not a font-size value : ".95em"
+51		Value Error : font-weight "bold" is not a font-weight value : "bold"
+52		Value Error : color Property color doesn't exist in CSS level 3 but exists in [css1, css2, css21] : "$black"
+71		Parse Error .name { font-size: "1.25em"; }
+71		Parse Error }
+90		Parse Error .main-nav li a { font-size: ".95em"; font-weight: "bold"; color: "$black"; }
+90		Parse Error }

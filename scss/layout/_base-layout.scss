@@ -3,16 +3,7 @@
 ==================================== */
 /* Mixins */
 
-@include font-properties('.95em', 'bold', '$black');
-
-
-
 /* Main CSS ----- */
-    
-    .name {
-        font-size: 1.75em;        
-    }
-
     
     .profile-img {
         max-width: 65%;
@@ -37,10 +28,14 @@
 /* ---- Navigation ---- */
 
 .name {
-    @include font-properties('1.25em');
+    @include font-properties(1.65em);
+    
+    a {
+	display: block;
+    
+    }
 }
 
-.name,
 .main-nav li {
 	@extend %centered;
     background: $grey;
@@ -50,17 +45,13 @@
 }
 
 
-.name a {
-	display: block;
-}
-
 /* Main Nav li updated with nesting */
 .main-nav li {
     a {
         padding: 10px 15px;
         @extend %centered;
         display: block;
-        @include font-properties('.95em', 'bold', '$black');
+        @include font-properties(.95em, bold, $black);
     
         &:hover {
                 background-color: $medium-blue;
