@@ -80,12 +80,10 @@
     }
     
     .right-footer-nav li {    
-        color: $black;
-        font-weight: bold;
+        @include font-properties(.95em, bold, $black);
 	    text-transform: uppercase;
         margin: 10px;
         display: inline-block;
-        font-size: .95em;  
     }
     
     .right-footer-nav a:visited{

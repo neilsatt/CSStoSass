@@ -187,12 +187,12 @@ a, #title, .col p, .main-nav li, .main-nav li a, .main-header, .main-footer {
     float: right; }
 
   .right-footer-nav li {
-    color: black;
+    font-size: 0.95em;
     font-weight: bold;
+    color: black;
     text-transform: uppercase;
     margin: 10px;
-    display: inline-block;
-    font-size: .95em; }
+    display: inline-block; }
 
   .right-footer-nav a:visited {
     color: black; }
